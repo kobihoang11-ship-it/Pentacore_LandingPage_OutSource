@@ -132,7 +132,7 @@ export const STUDIO = {
     {
       id:          'security',
       title:       'SECURITY FIRST',
-      description: 'Encrypted storage, and role-based access control to protect your projects at every stage.',
+      description: 'Encrypted storage, role-based access control to protect your projects at every stage.',
     },
     {
       id:          'workflow',
