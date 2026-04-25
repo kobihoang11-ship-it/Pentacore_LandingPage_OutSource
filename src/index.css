@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-bg text-white font-inter overflow-x-hidden;
+  }
+
+  /* Ensure videos fill containers properly */
+  video {
+    display: block;
+  }
+}
+
+@keyframes star-seq {
+  0%, 100% { opacity: 1; }
+  20%      { opacity: 0.5; }
+  40%      { opacity: 1; }
+}
+
+@layer utilities {
+  /* Grid dot-pattern background used across multiple sections */
+  /* Use --dot-opacity to control dot visibility, e.g. style="--dot-opacity:0.4" */
+  .grid-dots {
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='0.5' cy='0.5' r='0.7' fill='%23aaaaaa'/%3E%3C/svg%3E");
+    background-size: 23px 23px;
+    background-repeat: repeat;
+    opacity: var(--dot-opacity, 0.25);
+  }
+}
