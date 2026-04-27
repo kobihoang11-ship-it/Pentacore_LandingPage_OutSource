@@ -125,9 +125,9 @@ export const STUDIO = {
   id:               'studio',
   heading:          'OUR STUDIO',
   description:      'High-fidelity visuals, high-level security. Our TPN-compliant workflow ensures that every frame of your project is handled with the highest degree of reliability.',
-  imageTop:         '/assets/studio/1.png',       // ✅ large top-right image
-  imageBottomLeft:  '/assets/studio/2.png',        // ✅ bottom-left image
-  imageBottomRight: '/assets/studio/3.png',        // 📂 replace with a third studio photo
+  imageTop:         '/assets/studio/1.webp',       // ✅ large top-right image
+  imageBottomLeft:  '/assets/studio/2.webp',        // ✅ bottom-left image
+  imageBottomRight: '/assets/studio/3.webp',        // 📂 replace with a third studio photo
   features: [
     {
       id:          'security',

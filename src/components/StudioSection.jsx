@@ -180,7 +180,6 @@ export default function StudioSection() {
                 src={STUDIO.imageTop}
                 alt="Studio team at work"
                 className="w-full h-full object-cover"
-                loading="lazy"
               />
             </div>
 
@@ -191,7 +190,6 @@ export default function StudioSection() {
                   src={STUDIO.imageBottomLeft}
                   alt="Studio space"
                   className="w-full h-full object-cover"
-                  loading="lazy"
                 />
               </div>
               <div style={px(0.2)} className="w-full rounded-lg overflow-hidden aspect-[4/3]">
@@ -199,7 +197,6 @@ export default function StudioSection() {
                   src={STUDIO.imageBottomRight}
                   alt="Studio equipment"
                   className="w-full h-full object-cover"
-                  loading="lazy"
                 />
               </div>
             </div>
